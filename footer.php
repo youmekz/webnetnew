@@ -5,9 +5,6 @@
       <a href="<?=$telegram;?>" target="_blank">
         <img src="./assets/imgs/icons/telegram.png" alt="telegram icon" class="telegram-icon">
       </a>
-      <a href="<?=$phoneLink;?>">
-        <img src="./assets/imgs/icons/telegram.png" alt="phone icon" class="phone-icon">
-      </a>
     </div>
     
     <footer>
