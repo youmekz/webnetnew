@@ -1,0 +1,6 @@
+# Разрешаем индексацию всех страниц
+User-agent: *
+# Disallow:/admin/
+
+# Указываем путь к файлу sitemap
+Sitemap: https://webnet.kz/sitemap.xml

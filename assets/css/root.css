@@ -1,0 +1,60 @@
+:root {
+  --color-theme: #feb40f;
+  --gray: #ebeff2;
+
+  --color-theme-up: color-mix(in srgb,var(--color-theme),white 20%);
+  --color-theme-down: color-mix(in srgb,var(--color-theme),black 20%);
+
+  --color-theme-dark: #c70000;
+  --color-theme-dark-up: color-mix(in srgb,var(--color-theme-dark),white 20%);
+  --color-theme-dark-down: color-mix(in srgb,var(--color-theme),black 20%);
+
+  --color-warning: #FFECA1;
+  --color-warning-down: rgba(255, 236, 161, 0.2);
+
+  --red: red;
+
+  --green: rgb(6, 157, 6);
+  --white: #FFF;
+  --black: rgb(68, 63, 63);
+  --gray-gradient: rgba(138, 170, 255, 0.1);
+
+  --border: 1px solid var(--color-theme);
+  --height-header: 50px;
+  --padding: 5px;
+  --margin: 5px;
+  --radius: 18px;
+  --shadow: none;
+  --width-scroll-bar: 5px;
+  --shadow: none;
+  --blur: 10px;
+
+  --header-height: 40px;
+
+  --z-header: 90;
+  --z-messangers: 80;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+  transition-duration: 200ms;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background: var(--white);
+  color: var(--color-theme);
+  cursor: none;
+}
